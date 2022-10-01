@@ -146,9 +146,6 @@ contract NFT is ERC721URIStorage {
             '"description": "Movie ticket as NFT ",',
             '"image": "https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png' ,
             
-               '"attributes": "[", "{",' 
-              ' "trait_type": "Base',
-              ' "value": "Starfish',"}","{",' "trait_type": "Eyes', ' "value": "Big',   "}","]',
             generateNFT(),
             '"',
             "}"
